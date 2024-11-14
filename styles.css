@@ -1,0 +1,93 @@
+body {
+    background-image: url(images/Camelia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main-screen {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-site {
+    position: relative;
+    height: auto;
+    width: 30%;
+    right: 20%;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about-author {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    height: auto;
+    width: 100%;
+}
+
+.about-author-text {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    text-align: justify;
+
+    color: white;
+
+    margin: 30px;
+}
+
+.about-author-button {
+    background-color: white;
+    height: 60px;
+    width: 300px;
+
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 10px;
+    border: none;
+
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: black;
+
+    margin: 30px;
+    margin-top: 0px;
+}
+
+.social {
+    margin-top: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-img {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
